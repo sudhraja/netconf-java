@@ -331,4 +331,16 @@
 
 
     </dependencies>
+    <repositories>
+        <repository>
+            <id>maven-local</id>
+            <name>Maven Local</name>
+            <url>https://engci-maven.cisco.com/artifactory</url>
+        </repository>
+        <repository>
+            <id>maven-master</id>
+            <name>Maven master</name>
+            <url>https://engci-maven-master.cisco.com/artifactory</url>
+        </repository>
+    </repositories>
 </project>
